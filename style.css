@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-top: 10rem;
+    width: 55%;
+}
+
+h1{
+    line-height: 120%;
+    font-family: 'poppins', sans-serif;
+    margin-top: 7rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-weight: 500;
+    font-size: 1.75rem;
+}
+
+p{
+    font-family: 'poppins', sans-serif;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-weight: 300;
+    font-size: 1.2 rem;
+}
+
+p span{
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 800;
+}
+
+.join{
+    display: inline-block;
+    text-align: center;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px 13px;
+    margin: 1.5rem;
+    border: 3.5px solid #000000;
+    transition: 0.15s;
+    color: #000000;
+    transform: translateY(4px);
+    box-shadow: 6px 6px #000000;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.join:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #000000;
+    transform: translateY(10px);
+    box-shadow: 6px 6px #ffffff;
+    transition: 0.07s;
+}
+
+
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea, text{
+    width: 100%;
+    padding: 12px;
+    border: 3.5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: 'poppins' sans-serif;
+  }
+
+  input[type=email]{
+    width: 100%;
+    padding: 12px;
+    border: 3.5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: 'poppins' sans-serif;
+  }
+  
+  /* Style the label to display next to the inputs */
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    font-family: 'poppins', sans-serif;
+  }
+  
+  /* Style the submit button */
+  #signup {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    float:right;
+    font-family: 'poppins', sans-serif;
+  }
+
+  #signup:hover{
+    background-color: #525252;
+  }
+  
+  /* Style the container */
+  .container {
+    padding: 20px;
+    margin-top: 5rem;
+  }
+  
+  /* Floating column for labels: 25% width */
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+  
+  /* Floating column for inputs: 75% width */
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, #signup {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+

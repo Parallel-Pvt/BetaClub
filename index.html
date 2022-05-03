@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beta Club | Parallel Beta Software Program</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="home">
+        <img src="assets/betaclublogo.svg" class="logo">
+
+        <h1>Help Make The Next Releases Of Parallel The Best Yet.</h1>
+
+        <p>As a member of the <span>Parallel</span> Beta Software Program, you can take part in shaping Parallel by test-driving pre-release versions and letting us know what you think. The feedback you provide will help us identify and fix issues, and make the softwares even better.</p>
+
+        <a href="#register"><button class="join">Join The Club</button></a>
+                
+    </div>
+
+    <div class="container" id="register">
+        <form action="signup.php" method="post">
+          <div class="row">
+            <div class="col-25">
+              <label for="name">Full Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="name" name="name" required placeholder="Your name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="email" name="email" required placeholder="Your Email">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="os">OS</label>
+            </div>
+            <div class="col-75">
+              <select id="os" name="os" required>
+                <option value="australia">Android</option>
+                <option value="canada">iOS</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            
+          </div>
+          <br>
+          <button id="signup">Sign Up!</button>
+        </form>
+      </div>
+    
+</body>
+</html>
