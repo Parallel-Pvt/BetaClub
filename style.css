@@ -148,7 +148,7 @@ input[type=text], select, textarea, text{
   /* Style the container */
   .container {
     padding: 20px;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
   
   /* Floating column for labels: 25% width */
