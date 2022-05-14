@@ -100,6 +100,24 @@ input[type=text], select, textarea, text{
     resize: vertical;
     font-family: 'poppins' sans-serif;
   }
+
+  input[type=date]{
+    width: 100%;
+    padding: 12px;
+    border: 3.5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: 'poppins' sans-serif;
+  }
+
+  input[type=tel]{
+    width: 100%;
+    padding: 12px;
+    border: 3.5px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    resize: vertical;
+    font-family: 'poppins' sans-serif;
+  }
   
   /* Style the label to display next to the inputs */
   label {

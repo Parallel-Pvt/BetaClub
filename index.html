@@ -36,21 +36,26 @@
             <div class="col-75">
               <input type="email" id="email" name="email" required placeholder="Your Email">
             </div>
-            <div class="col-75">
-              <input type="date" id="dob" name="dob" required placeholder="DD/MM/YYYY">
-            </div>
           </div>
+
           <div class="row">
             <div class="col-25">
-              <label for="os">OS</label>
+              <label for="dob">DOB</label>
             </div>
             <div class="col-75">
-              <select id="os" name="os" required>
-                <option value="Android">Android</option>
-                <option value="iOS">iOS</option>
-              </select>
+              <input type="date" id="dob" name="dob" required>
             </div>
           </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="phone">Phone Number</label>
+            </div>
+            <div class="col-75">
+              <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required placeholder="XXX-XXX-XXXX">
+            </div>
+          </div>
+          
           <div class="row">
             
           </div>
