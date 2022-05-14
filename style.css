@@ -38,6 +38,10 @@ h1{
     font-size: 1.75rem;
 }
 
+#party h1{
+  margin-top: 3.5rem;
+}
+
 p{
     font-family: 'poppins', sans-serif;
     padding-left: 3rem;
